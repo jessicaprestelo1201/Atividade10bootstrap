@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <style>
+        
+        body {
+            background-color: rgb(40, 43, 54);
+            color: rgb(110, 110, 110);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            color: rgb(255, 255, 255);
+            background-color: #ff7b00;
+            border: none;
+            border-radius: 10px;
+    
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: gray;
+            margin-bottom: 10px;
+        }
+        .social-icons i {
+            margin: 0 5px;
+        }
+        .btn-follow {
+            margin-top: 10px;
+        }
+        .arrow-down {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+
+        .container {
+            display: flex;
+            gap: 10px;
+        
+        }
+    </style>
+
+<style>
+    .card:hover {
+        animation: pulse 1s;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+            <div class="col-md-4">
+                <div class="card animate__animated">
+                    <div class="card-body">
+                        <img src="./img/primeirocardpessoa.jpg" alt="Profile Image" class="profile-img">
+                        <h5 class="card-title">Daniel Miller</h5>
+                        <p class="card-text">Founder</p>
+                        <div class="social-icons">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <br>
+                        <BR>
+                        <button class="btn btn-primary btn-follow">Follow</button>
+                        <p>Learn more</p>
+                        <div class="arrow-down">↓</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card animate__animated animate">
+                    <div class="card-body">
+                        <img src="./img/segundocardpessoa.jfif" alt="Profile Image" class="profile-img">
+                        <h5 class="card-title">Ava Watson</h5>
+                        <p class="card-text">CEO</p>
+                        <div class="social-icons">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <BR>
+                            <br>
+                        <button class="btn btn-primary btn-follow">Follow</button>
+                        <p>Learn more</p>
+                        <div class="arrow-down">↓</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card animate__animated animate">
+                    <div class="card-body">
+                        <img src="./img/terceirocardpessoa.webp" alt="Profile Image" class="profile-img">
+                        <h5 class="card-title">Jack</h5>
+                        <p class="card-text">Web Developer</p>
+                        <div class="social-icons">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <br>
+                        <br>
+                        <button class="btn btn-primary btn-follow">Follow</button>
+                        <p>Learn more</p>
+                        <div class="arrow-down">↓</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
